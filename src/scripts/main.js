@@ -355,7 +355,7 @@ const people = [
 ];
 
 // eslint-disable-next-line no-console
-console.log(people); // you can remove it
+console.log(people);
 
 const table = document.querySelector('.dashboard');
 
