@@ -369,7 +369,7 @@ people.forEach((person) => {
   const nameCentury = document.createElement('td');
 
   nameCell.textContent = person.name;
-  nameGender.textContent = person.sex;
+  nameGender.textContent = person.sex === 'm' ? 'Male' : 'Female';
   nameBorn.textContent = person.born;
   nameDied.textContent = person.died;
   nameAge.textContent = person.died - person.born;
